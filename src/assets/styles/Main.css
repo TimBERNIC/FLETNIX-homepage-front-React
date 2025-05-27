@@ -31,8 +31,8 @@ main {
 
 .movie-box > img:hover {
   cursor: pointer;
-  transition: 0.2s;
-  border: solid rgb(189, 0, 0) 3px;
+  transition: 0.5s;
+
   border-radius: 5px;
   position: absolute;
   z-index: 1;
