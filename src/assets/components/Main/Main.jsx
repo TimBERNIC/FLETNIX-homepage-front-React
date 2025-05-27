@@ -1,6 +1,6 @@
 import MoviesBox from "./MoviesBox";
-import data from "../json/movies_rnexgr.json";
-
+import data from "../../json/movies_rnexgr.json";
+import "./Main.css";
 const Main = () => {
   return (
     <main>

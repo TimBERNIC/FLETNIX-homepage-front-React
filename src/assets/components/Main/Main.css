@@ -1,6 +1,7 @@
 main {
+  height: calc(100vh - 160px);
   overflow: scroll;
-  overflow: hidden;
+  scrollbar-width: none;
 }
 .category-box {
   height: calc(100% / 3);
@@ -31,11 +32,8 @@ main {
 
 .movie-box > img:hover {
   cursor: pointer;
-  transition: 0.5s;
-
+  transition: 0.2s;
   border-radius: 5px;
-  position: absolute;
-  z-index: 1;
-  max-height: 210px;
-  min-width: 360px;
+  opacity: 0.8;
+  border: red 4px solid;
 }

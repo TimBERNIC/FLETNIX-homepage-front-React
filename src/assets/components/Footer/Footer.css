@@ -3,6 +3,7 @@ footer {
   display: flex;
   justify-content: center;
   height: 60px;
+  font-size: 12px;
 }
 
 footer > div {
