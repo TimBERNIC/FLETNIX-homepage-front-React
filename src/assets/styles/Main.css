@@ -26,12 +26,16 @@ main {
   max-height: 190px;
   min-width: 340px;
   object-fit: inherit;
+  position: relative;
 }
 
 .movie-box > img:hover {
-  opacity: 0.7;
   cursor: pointer;
   transition: 0.2s;
   border: solid rgb(189, 0, 0) 3px;
   border-radius: 5px;
+  position: absolute;
+  z-index: 1;
+  max-height: 210px;
+  min-width: 360px;
 }
