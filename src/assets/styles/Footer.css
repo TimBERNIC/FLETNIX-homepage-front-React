@@ -1,0 +1,20 @@
+footer {
+  color: White;
+  display: flex;
+  justify-content: center;
+  height: 60px;
+}
+
+footer > div {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer a {
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+  margin: 0px 3px;
+}
