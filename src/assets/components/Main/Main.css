@@ -21,7 +21,7 @@ main {
 
 .movie-box > img {
   max-height: 120px;
-  min-width: 220px;
+  min-width: 220px;      
   object-fit: inherit;
 }
 

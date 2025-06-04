@@ -13,7 +13,7 @@ footer > div {
   align-items: center;
 }
 
-footer a {
+footer a span {
   text-decoration: none;
   font-weight: bold;
   color: white;

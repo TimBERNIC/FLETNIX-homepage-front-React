@@ -1,10 +1,10 @@
 const CarousselBox = ({ moviesImg }) => {
   return (
     <div className="caroussel-box">
-      {moviesImg.map((element) => {
+      {moviesImg.map((elementUrl) => {
         return (
           <div className="movie-box">
-            <img src={element} alt="image de film" />
+            <img src={elementUrl} alt="image de film" />
           </div>
         );
       })}
